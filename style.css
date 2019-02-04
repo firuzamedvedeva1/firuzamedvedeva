@@ -1,0 +1,502 @@
+body{
+  background-image: url("./img/1.jpg");
+  margin: 0;
+  padding: 0;
+ 
+}
+.wrapper {
+  padding: 10px;
+  text-align: center;
+
+}
+.main-container{
+
+  border: 1px solid #fff21e;
+  /* padding:10px; */
+  width: 100%;
+  background-color: #fff;
+}
+/* .row{
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+header{
+  position: relative;
+
+  background-image: url(../img/header_bg.jpg);
+  background-position: right top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+.download{
+  padding: 0;
+  background: transparent;
+  color: #1f1f29;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+
+}
+.resume-title{
+  bottom: 72px;
+  z-index: 2;
+  margin-top: 10%;
+
+}
+
+.resume-title h2{
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #1f1f29;
+  line-height: 0.69em;
+  letter-spacing: 0.14em;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.resume-designation span.border{
+  width: 100%;
+  max-width: 290px;
+  height: 4px;
+  margin-right: 25px;
+  background-color: #ff4d57;
+}
+
+.resume-designation span{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1f1f29;
+  letter-spacing: 0.5em;
+  vertical-align: middle;
+}
+section{
+  padding: 10px;
+}
+hr{
+  width: 100%;
+  height: 2.5px;
+  background-color: #ff4d57;
+  border-color:#ff4d57;
+  max-width: 80px;
+  display: block;
+  margin: 0;
+
+}
+.title{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  text-align: left;
+}
+.skills-wrapper  ul{
+  list-style: none;
+}
+section p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 30px 0 0px;
+  letter-spacing: 0.75px;
+  color: #424250;
+}
+
+.personal-skills{
+  /* display: inline-block; */
+  /* max-width: 45%; */
+  margin-right: 50px;
+}
+.professional-skills{
+  display: inline-block;
+  /* width: 100%; */
+
+}
+.indicator {
+  width: 100%;
+  border-bottom: 3px solid #eeeeee;
+  position: relative;
+  margin-bottom: 15px;
+}
+.indicator .progress{
+  background-color: black;
+  position: absolute;
+  bottom:-3px;
+  height: 3px;
+}
+.indicator .title{
+  color: #FFF;
+  font-weight: bold;
+  text-align: left;
+}
+.indicator .title span{
+  float: right;
+}
+
+.tochka .progress{
+  background-color: black;
+  position: absolute;
+  bottom:-3px;
+  height: 3px;
+}
+.tochka .title{
+  color: #FFF;
+  font-weight: bold;
+  text-align: left;
+}
+.tochka .title span{
+  float: right;
+}
+.skill-tip{
+  position: absolute;
+  top: -27px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  background-color: #ff4d57;
+  color: #fff;
+  right: -15px;
+}
+
+.skill-tip::after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 0;
+height: 0;
+border: 6px solid transparent;
+border-top-color: #ff4d57;
+border-bottom: 0;
+margin-left: -6px;
+margin-bottom: -6px;
+}
+.skills p{
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #1f1f29;
+}
+
+.dote{
+  width: 10px; 
+  height: 10px;
+  margin: 5px auto;
+  background: silver;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+
+}
+.color-dote{
+  background-color: #ff4d57;  
+  width: 10; 
+  margin: 5em auto;
+  background: silver;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+  }
+.color-dote::before{
+
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100%;
+}
+.dote::before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 100%;
+}
+.skill-title{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #1f1f29;
+  margin-right: 20px;
+}
+.skill-dotes{
+margin-top:30px;
+}
+.skills{
+  padding-left: 0px;
+  color: #1f1f29;
+  margin-left: 40px;
+}
+.dote-list{
+  margin-bottom: 2px;
+}
+
+.timeline-centered::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  display: block;
+  width: 4px;
+  border-left: dashed 1px #897f8a;
+}
+.timeline-centered{
+  position: relative;
+  margin-top: 50px;
+}
+.timeline-entry{
+  position: relative;
+  margin-bottom: 80px;
+  clear: both;
+}
+.donut-icon{
+  height: 20px;
+  width: 20px;
+  border: #c7c5c6 solid 2px;
+  border-radius: 50px;
+  float: left;
+  margin-left: -12px;
+  background-color: white;
+  position: relative;
+}
+
+.circle-icon{
+  height: 9px;
+  width: 9px;
+  border-radius: 50px;
+  color: #67676F;
+  position: absolute;
+  background-color: #66676d;
+  top: 4px;
+  left: 4px;
+}
+.timeline-inner{
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 80px;
+}
+
+.label-discription p{ 
+margin: 0px;
+}
+.timeline-label {
+  position: relative;
+  background: #ff4d57;
+  padding: 0 10px;
+  /*margin-left: 10px; */
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 26px; 
+  letter-spacing: 0.75px;
+  color: white;
+}
+
+  .timeline-label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13px 9px 13px 0;
+  border-color: transparent #ff4d57 transparent transparent;
+  }
+.company{
+  margin: 0;
+  margin-top: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #424250;
+}
+  .designation{
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  }
+.education{
+;
+  margin-right: 50px;
+
+
+  }
+.practise{
+
+}
+.connect .social-links li i {
+  width: 100%;
+  text-align: center;
+  line-height: inherit;
+  display: inline-block;
+  font-size: 12px;
+
+}
+.social-links{
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.relation img{
+  width: 20px;
+}
+.offsed .title{
+  display: inline-block;
+  margin: 0px;
+  font-size: 15px;
+}
+.icon{
+  margin-right: 0px;
+}
+
+section#expirience{
+  display: block;
+  text-align: initial;
+  position: relative;
+
+}
+
+@media (min-width:768px){
+  .dote {
+    width: 18px;
+    height: 18px;
+  }
+  .resume-title{
+  padding:20px; 
+  }
+  .resume-title h2{
+    font-size: 40px;
+  }
+  section p{
+    font-size: 20px;
+  } 
+  .timeline-label{
+    font-size: 20px;
+  }
+  .title{
+    font-size: 25px;
+    }
+    .skills p{
+      font-size: 20px;
+    }
+  .indicator{
+    width: 100%;
+  }
+  .skill-title{
+    font-size: 20px;
+  }
+  .company{
+    font-size: 25px;
+  }
+  .designation{
+    font-size: 20px
+  }
+  .offsed .title{
+    font-size: 25px;
+  }
+  .relation img{
+    width: 30px;
+  }
+
+}
+@media (min-width:1024px){
+
+  .skills{
+    display: inline-block;
+  }
+.personal-skills h2{
+  margin: 0px;
+}
+.designation{
+  margin-top: 5px;
+}
+}
+@media (min-width:1200px){
+  /* .personal-skills{
+    display: inline-block;
+  } */
+  .education{
+    display: inline-block;
+    max-width: 40%;
+    float: left;
+    margin: 5px 70px;
+  }
+  .practise{
+    display: inline-block;
+    max-width: 40%;
+  }
+  .skills{
+    display: inline-block;
+    margin: 24px 4px;
+  }
+  .personal-skills{
+    display: inline-block;
+    float: left;
+    margin: 22px 70px;
+  }
+  .professional-skills{
+    display: inline-block;
+  }
+  .box{
+    margin: 20px 70px
+  }
+  .skillset .personal-skills .title h2{
+    padding-bottom: 23px;
+  } 
+.main-container{
+  border:10px solid #fff21e;
+  width: 98%;
+}
+.professional-skills p{
+  text-align: initial;
+  font-size: 25px;
+}
+.personal-skills h2{
+  margin-bottom: 20px;
+}
+section p{
+  font-size: 25px;
+
+}
+.main-container{
+  margin-top: 61px;
+  border: 25px solid #fff21e;
+  background-color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 56%;
+}
+.row{
+  padding-left: 8%;
+}
+.personal-skills{
+  text-align: initial;
+}
+.skill-dotes{
+  text-align: initial;
+}
+.resume-title h2 {
+  font-size: 68px;
+}
+.box {
+  text-align: initial;;
+  }
+.resume-title{
+  background-image: url("./img/001.png")
+}
+}
